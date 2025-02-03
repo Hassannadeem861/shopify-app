@@ -1,0 +1,28 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "800c481cdfe426da75bbe5d184cac695"
+application_url = "https://virus-pair-effective-collar.trycloudflare.com"
+embedded = true
+name = "demo"
+handle = "demo-1663"
+
+[webhooks]
+api_version = "2025-01"
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "write_products"
+
+[auth]
+redirect_urls = [
+  "https://virus-pair-effective-collar.trycloudflare.com/auth/callback",
+  "https://virus-pair-effective-collar.trycloudflare.com/auth/shopify/callback",
+  "https://virus-pair-effective-collar.trycloudflare.com/api/auth/callback"
+]
+
+[pos]
+embedded = false
+
+[build]
+dev_store_url = "icket-management-system.myshopify.com"
+automatically_update_urls_on_dev = true

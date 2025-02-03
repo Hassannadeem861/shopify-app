@@ -1,0 +1,17 @@
+## https://www.youtube.com/watch?v=WZjQZXQAwog
+### Resources
+## You can follow these helpful links to get started with Shopify and Polaris UI development
+
+- Signup for Partner account (https://www.shopify.com/partners) that lets test and spin stores and apps for free development
+- Document to build apps: https://shopify.dev/apps
+
+## install node js 
+## shopify version
+## npm init @shopify/app@latest
+## Your project name = dem0
+## npm init @shopify/app@latest -- --template=node
+## dependency install (npm install web && frontend)
+## press p preview in your browser
+## press q exit
+## npm run dev
+## npm run dev -- --reset => agr project brower main start hona main q problem ho
